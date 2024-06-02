@@ -1,0 +1,79 @@
+
+/* Extra small device  */
+@media (max-width:575px) {
+    body{
+        background-color: rgb(179, 61, 80);
+    }
+    h2{
+        font-size: 20px;
+    }
+    h2::after{
+        content: "Extra Small Device Screen-1";
+    }
+}
+
+/* small device  */
+@media (min-width:576px) and (max-width:767px) {
+    body{
+        background-color: rgb(61, 179, 87);
+    }
+    h2{
+        font-size: 26px;
+    }
+    h2::after{
+        content: " Small Device Screen-2";
+    }
+}
+
+/* medium device  */
+@media (min-width:768px) and (max-width:991px) {
+    body{
+        background-color: rgb(61, 73, 179);
+    }
+    h2{
+        font-size: 32px;
+    }
+    h2::after{
+        content: "Medium Device Screen-3";
+    }
+}
+
+/* large device  */
+
+@media (min-width:992px) and (max-width:1199px) {
+    body{
+        background-color: rgb(126, 61, 179);
+    }
+    h2{
+        font-size: 37px;
+    }
+    h2::after{
+        content: "Large Device Screen-4";
+    }
+}
+/* extra large device  */
+@media (min-width:1200px) and (max-width:1399px) {
+    body{
+        background-color: rgb(179, 167, 61);
+    }
+    h2{
+        font-size: 45px;
+    }
+    h2::after{
+        content: "Extra Large Device Screen-5";
+    }
+}
+
+/* extra extra large device  */
+
+@media (min-width:1400px) {
+    body{
+        background-color: rgb(124, 179, 61);
+    }
+    h2{
+        font-size: 50px;
+    }
+    h2::after{
+        content: "Extra Extra Large Device Screen-6";
+    }
+}
